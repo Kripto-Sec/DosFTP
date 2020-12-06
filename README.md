@@ -1,11 +1,18 @@
-# DosFTP
-Script feito em C para DoS em servidores FTP
-## Como usar 
-você poder usar o Já compilado com
+# FTPDoS
+Script feito em C para DoS em serviços FTP
+
+## Modo de uso
+Você poder usar o já compilado com:
+```sh
+./ftpdos [IP] [QUANTIDADE DE PACOTES]
 ```
-./FtpDos 127.0.0.1
+
+> Exemplo:
+```sh
+./ftpdos 192.168.0.1 500
 ```
-ou pode compilar o seu apartir do codigo fonte 
-```
-gcc FtpDos.c -o Nome
+
+ou pode compilar o seu a partir do codigo fonte:
+```sh
+gcc ftpdos.c -o ftpdos
 ```
