@@ -20,6 +20,8 @@ int main(int argc, char *argv[])
 		printf("# ·Autor:           Kripto-Sec (Jean)                     #\n");
 		printf("###########################################################\n");
 
+		return 0;
+
 	} else
 	{
 
@@ -31,7 +33,7 @@ int main(int argc, char *argv[])
 
 		struct sockaddr_in alvo;
 
-		for (dos = inicio + 1; dos < final; dos++)
+		for (dos = inicio + 1; dos <= final; dos++)
 		{
 
 			sock = socket(AF_INET, SOCK_STREAM, 0);
